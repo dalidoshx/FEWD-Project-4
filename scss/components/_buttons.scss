@@ -3,32 +3,44 @@
 /* ============================================= */
 
 .btn {
-  margin-top: 15px;
-  width: 100%;
-  color: $white;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px;
+  @include button;
   }
   
 .default {
   background-color: $btn-color-1;
+
+  &:hover {
+    background-color: $btn-color-1light;
+  }
 }
 
 .error {
   background-color: $btn-color-2;
+
+  &:hover {
+    background-color: $btn-color-2light;
+ }
 }
 
 .info {
   background-color: $btn-color-3;
+
+  &:hover {
+    background-color: $btn-color-3light;
+ }
 }
 
 .success {
   background-color: $btn-color-4;
-}
 
+  &:hover {
+    background-color: $btn-color-4light;
+ }
+}
 .warning {
   background-color: $btn-color-5;
-}
   
+  &:hover {
+    background-color: $btn-color-5light;
+ }
+}
