@@ -1,23 +1,38 @@
 // Color variables
 
-$white: #fff; 
-$grey: #777; 
+$white: #fff;                   // white color
+$grey: #777;                    // grey color
 
-$color-primary: #58e1c1; // light green
-$color-secondary: #51ddfc; // light blue
+$color-primary: #58e1c1;        // light green
+$color-secondary: #51ddfc;      // light blue
 
-$btn-color-1: $color-secondary; // default btn
-$btn-color-2: #e4757a; // error btn
-$btn-color-3: #927bc1; // info btn
-$btn-color-4: #63cc82; // success btn
-$btn-color-5: #fd7856; // warning btn
+$btn-color-1: $color-secondary;   // default btn
+$btn-color-2: #e4757a;          // error btn
+$btn-color-3: #927bc1;          // info btn
+$btn-color-4: #63cc82;          // success btn
+$btn-color-5: #fd7856;          // warning btn
 
 // Font variables
 
-$font-stack-primary: 'Lato', sans-serif;
+$font-stack-primary: 'Lato', sans-serif;        
+$font-size-primary: 1.5em; 
+$font-weight-thin: 300;
+$font-weight-bold: 700;
+$font-style-bq: italic;
 
-// Media queries breakpoints
+// Layout 
 
 $max-width: 1400px;
 
-$break-m: 768px;
+// Media queries 
+
+$break-xs: 768px;                                   
+$break-lg: 1200px;   
+
+// Function color 
+
+$btn-color-1light: lighten($btn-color-1, 15%);
+$btn-color-2light: lighten($btn-color-2, 15%);
+$btn-color-3light: lighten($btn-color-3, 15%);
+$btn-color-4light: lighten($btn-color-4, 15%);
+$btn-color-5light: lighten($btn-color-5, 15%);
