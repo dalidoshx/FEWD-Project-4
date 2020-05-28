@@ -2,7 +2,7 @@
 /*              Media Queries                    */
 /* ============================================= */
 
-@media (min-width: $break-xs) {
+@include mq(xs) { 
 
   .container {
     max-width: $max-width;
